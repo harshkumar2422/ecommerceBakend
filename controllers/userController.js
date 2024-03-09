@@ -4,7 +4,6 @@ import { sendToken } from "../utils/sendToken.js";
 import bcrypt from "bcrypt";
 import nodemailer from "nodemailer";
 import Order from "../models/order.js";
-import { Cart, cart, cart } from "../models/cart.js";
 
 export const register = async (req, res, next) => {
   try {
