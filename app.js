@@ -6,6 +6,8 @@ import userRoute from "./routes/userRoutes.js";
 import productRoute from "./routes/ProductRoutes.js";
 import cookieParser from "cookie-parser";
 import bodyParser from "body-parser";
+import cors from "cors"
+
 
 const app = express();
 //usinf dotnev
